@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --PaleViolet: hsl(276, 100%, 81%);
+    --ModerateViolet: hsl(276, 55%, 52%);
+    --DesaturatedDarkViolet: hsl(271, 15%, 43%);
+    --GrayishBlue: hsl(206, 6%, 79%);
+    --VeryDarkDesaturatedViolet: hsl(271, 36%, 24%);
+    --DarkGrayishViolet: hsl(270, 7%, 64%);
+    --LightMagenta: hsl(293, 100%, 63%);
+    --LightViolet: hsl(264, 100%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrayishViolet: hsl(270, 20%, 96%);
+    --VeryDarkDesaturatedViolet: hsl(271, 36%, 24%);
+    --VeryLightmagenta: hsl(289, 100%, 72%);
+}
+
+body{
+    Font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background-color:hsl(270, 20%, 96%);
+}
+
+.maincontainer{    
+    position: absolute;   
+    width: 1440px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+.sfondo-viola{  
+    position: absolute;    
+}
+
+/*Main Phone*/
+.phone{
+    background-color: var(--LightGrayishViolet);
+    position: absolute;    
+    width: 247px;
+    height: 506px;
+    border-radius: 25px;
+    margin: 150px 0 0 364px;
+    border: solid 10px white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Head Phone*/
+.utente{
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    position: absolute;
+    width: 228px;
+    height: 65px;
+}
+
+.pillola{
+    position: absolute;
+    margin-left: 48px;
+    background-color: white;
+    width: 128px;
+    height: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1; 
+}
+
+.phone .head-phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;      
+    margin-top: 20px;
+    margin-left: 14px;
+    width: 200px;
+    height: 45px;
+}
+
+.head-phone span{
+    font-size: 15px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+
+.phone .utente .name{
+    position: absolute;    
+    margin-left:45px;
+    margin-top: 20px;
+    width: 128px;
+    height: 45px;
+    line-height: 0.9;   
+}
+
+.utente .head-phone img{
+    position: absolute;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: 1px solid white;
+}
+
+/*First Element*/
+.first-element{    
+    margin-top: 75px;
+    margin-left: 5px;
+    background-color: hsl(206, 11%, 87%);
+    width: 128px;
+    height: 35px;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 5px 5px 5px 5px;
+}
+
+/*Second Element*/
+.second-element{    
+    margin-top: 8px;
+    margin-left: 5px;
+    background-color: hsl(206, 11%, 87%);
+    width: 128px;
+    height: 35px;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 5px 5px 5px 5px;
+}
+
+/*Third Element Dogs*/
+.third-element{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top: 8px;
+    margin-left: 85px;    
+    width: 138px;
+    height: 42px;    
+}
+
+/*fourth-element*/
+.fourth-element{
+    margin-top: 8px;
+    margin-left: 95px;
+    background-color: white;
+    width: 128px;
+    height: 35px;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 5px 5px 5px 5px;
+}
+
+/*fifth-element*/
+.fifth-element{
+    margin-top: 8px;
+    margin-left: 145px;
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 5px 5px 5px 5px;
+}
+
+/*sixth-element*/
+.sixth-element{
+    margin-top: 8px;
+    margin-left: 5px;
+    background-color: hsl(206, 11%, 87%);
+    width: 128px;
+    height: 45px;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 5px 5px 5px 5px;
+}
+
+/*seventh-element*/
+.seventh-element{
+    margin-top: 8px;
+    margin-left: 5px;
+    background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 160px;
+    height: 31px;
+    border-radius: 10px 10px 10px 0px;
+    line-height: 1.5;
+    padding: 5px 5px 5px 5px;    
+}
+
+/*eighth-element*/
+.eighth-element{
+    margin-top: 8px;
+    margin-left: 5px;
+    background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 160px;
+    height: 31px;
+    border-radius: 10px 10px 10px 0px;
+    line-height: 1.5;
+    padding: 5px 5px 5px 5px;    
+}
+
+/*ninth-element*/
+.ninth-element{
+    display: flex;
+    margin-top: 20px;    
+    margin-left: 8px;
+    background-color: white;
+    width: 212px;
+    height: 35px;
+    border-radius: 25px;
+    line-height: 1.5;    
+}
+
+/* Big Section */
+section .big-section{
+    position: absolute;
+    width: 460px;
+    height: 200px;
+    margin-left: 730px;
+    margin-top: 300px;
+}
+
+/* sfondo grigio */
+.sfondo-grigio{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 115px; 
+    z-index: -1;   
+}
+
+
+
+
+
+
